@@ -38,7 +38,7 @@ $ mvn package
 $ java -jar target/spring-boot-docker-0.0.1-SNAPSHOT.jar
 ```
 
-Docker 컨테이너로 이용하기 위해 도커 이미지를 생성해야함. 그러기 위해서 먼저
+Docker 컨테이너로 이용하기 위해 도커 이미지를 생성해야함. 그러기 위해서 먼저 Dockerfile을 생성해야한다.
 
 ## Dockerfile을 생성
 
