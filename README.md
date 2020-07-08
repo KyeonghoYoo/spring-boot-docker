@@ -52,7 +52,8 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 - Base가 되는 이미지를 COPY할 이미지를 설정
 - ENTRYPOINT로 command를 java -jar app.jar 로 줌
 
-## 도커파일을 이용해 이미지를 빌드해본다.
+## 도커파일을 이용해 이미지를 빌드
+아래 명령어를 사용하여 Dockerfile을 이용해 이미지를 빌드해보자.
 
 ```powershell
 $ docker build -t spring-boot-docker .
